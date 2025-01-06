@@ -1,0 +1,118 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    font-weight: 700;
+  }
+  
+  /* Navbar */
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    margin-right: 15px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #17a2b8;
+  }
+  
+  /* Sections */
+  section {
+    padding: 60px 0;
+  }
+  
+  #home {
+    background: linear-gradient(to right, #007bff, #6610f2);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #about p, #skills p, #contact p {
+    font-size: 1.1rem;
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa !important;
+  }
+  
+  /* Skills Section */
+  #skills .col-md-4 {
+    margin-bottom: 20px;
+  }
+  
+  #skills h4 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  #skills p {
+    font-size: 1rem;
+  }
+  
+  /* Projects Section */
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Contact Form */
+  form .form-control {
+    border-radius: 8px;
+  }
+  
+  form .btn {
+    background-color: #17a2b8;
+    border: none;
+  }
+  
+  form .btn:hover {
+    background-color: #138496;
+  }
+  
+  /* Footer */
+  footer {
+    background: #343a40;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    #home {
+      padding: 60px 0;
+    }
+  
+    #projects .card {
+      margin-bottom: 20px;
+    }
+  }
+  
