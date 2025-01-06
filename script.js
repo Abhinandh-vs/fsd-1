@@ -35,4 +35,6 @@ window.addEventListener('scroll', () => {
   } else {
     navbar.classList.remove('bg-dark', 'shadow');
   }
+  document.getElementById('currentYear').textContent = new Date().getFullYear();
+
 });
